@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 960px;
+    width: 960px;
+    border: 4px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    width: 960px;
+}
+
+.item { 
+    flex: 1 1 auto;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    text-align: center; 
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 15px;
+}
